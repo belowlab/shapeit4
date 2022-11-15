@@ -5,9 +5,7 @@ RUN apt-get update && apt-get install -y \
     cmake \
     libboost-iostreams-dev \
     libboost-program-options-dev \
-    libbz2-dev \
-    libhts-dev \
-    libz-dev
+    libhts-dev
 
 WORKDIR /app
 COPY . .

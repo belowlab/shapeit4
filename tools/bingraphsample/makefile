@@ -25,7 +25,7 @@ BOOST_LIB_PO=/usr/lib/x86_64-linux-gnu/libboost_program_options.a
 #Good performance and portable on most intel CPUs
 #CXXFLAG=-O3 -mavx2 -mfma 
 #Portable version without avx2 (much slower)
-CXXFLAG=-g
+CXXFLAG=-g -msse41
 LDFLAG=-O3
 
 #DYNAMIC LIBRARIES
